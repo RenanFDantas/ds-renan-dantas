@@ -6,7 +6,7 @@ public class CalculadoraIMC {
         double imc = calcularIMC(peso, altura);
 
         System.out.println("Peso: " + peso + "kg");
-        System.out.println("Altura: " + altura + "metros");
+        System.out.println("Altura: " + altura + " metros");
         System.out.println("IMC: " + imc);
 
         if (imc < 18.5) {
