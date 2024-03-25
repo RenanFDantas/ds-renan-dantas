@@ -22,7 +22,7 @@ public class CalculadoraIMC {
         }
     }
 
-    public static double calcularIMC(doble peso, double altura) {
+    public static double calcularIMC(double peso, double altura) {
         return peso / (altura * altura);
     }
 }
