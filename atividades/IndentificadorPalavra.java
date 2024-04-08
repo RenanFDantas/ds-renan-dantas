@@ -15,5 +15,7 @@ public class IndentificadorPalavra {
         } else {
             System.out.println("A frase '" + frase + "' nao contem a palavra '" + palavra + "'");
         }
+        
+        scanner.close();
     }
 }
